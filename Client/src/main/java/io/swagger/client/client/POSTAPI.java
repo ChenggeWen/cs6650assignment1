@@ -239,7 +239,7 @@ public class POSTAPI {
 
     public static void main(String[] args) throws InterruptedException, IOException {
         POISON_PILL = new Request();
-        String serverUrl = "http://127.0.0.1:8080/Servlet-1.0-SNAPSHOT";
+        String serverUrl = "http://54.186.113.234:8080/Servlet_war";
         long startTime = System.currentTimeMillis();
         CountDownLatch latch = new CountDownLatch(32 + 800);
         BlockingQueue<Request> buffer = new LinkedBlockingQueue<>(5000);
